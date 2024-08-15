@@ -1,0 +1,20 @@
+@import url("./styles/reset.css");
+@import url("./styles/header.css");
+@import url("./styles/cabecalho.css");
+@import url("./styles/metricas.css");
+
+:root{
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --marrom: #8E2424;
+    --azul: #101828;
+    --medium: 500;
+    --semi-bold: 600;
+    --regular: 400;
+}
+
+body{
+    background-color: var(--branco);
+    font-size: 16px;
+    font-family: "Inter";
+}
