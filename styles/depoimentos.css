@@ -1,0 +1,43 @@
+.depoimentos{
+    height: 31.25em;
+    margin-top: 4.5em;
+}
+
+.depoimentos__container{
+    background: rgba(196, 25, 25, 0.03);
+    width: 76em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4em;
+    border-radius: 1em;
+}
+
+.depoimentos__container__texto span{
+    font-weight: var(--semi-bold);
+    font-size: 0.87em;
+    color: var(--marrom);
+}
+
+.depoimentos__container__texto h2{
+    color: var(--azul);
+    font-weight: var(--medium);
+    font-size: 2.25em;
+    margin-top: 16px;
+}
+
+.depoimentos__container__user{
+    margin-top: 2em;
+}
+
+.depoimentos__container__user h3{
+    color: var(--azul);
+    font-weight: var(--medium);
+    margin-top: 1em;
+}
+
+.depoimentos__container__user p{
+    color: var(--cinza);
+    font-size: 0.87em;
+    font-weight: var(--regular);
+    margin-top: 0.25em;
+}
