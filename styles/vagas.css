@@ -1,0 +1,36 @@
+.vaga{
+    width: 48em;
+    display: block;
+    margin: 4em auto;
+}
+
+.vaga__area{
+    font-weight: var(--medium);
+    font-size: 1.25em;
+    color: var(--azul);
+    margin-bottom: 2em;
+}
+
+.vaga__titulo{
+    color: var(--azul);
+    font-size: 1.10em;
+    font-weight: var(--medium);
+}
+
+.vaga__descricao{
+    font-weight: var(--medium);
+    color: var(--cinza);
+    display: flex;
+    gap: 1.5em;
+}
+
+.vaga__texto{
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.5em;
+    gap: 2em;
+    margin-bottom: 1.5em;
+}
